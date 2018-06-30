@@ -1,10 +1,10 @@
 'use strict';
 
 const { Client } = require('pg');
-var database = process.env.DATABASE || 'ita_dev';
+var database = process.env.DATABASE || 'socket';
 var db_password = process.env.DB_PASSWORD || 'root';
 var db_user = process.env.DB_USER || 'postgres';
-var db_host = process.env.DB_HOST || '192.168.2.174';
+var db_host = process.env.DB_HOST || 'localhost';
 var db_port = process.env.DB_PORT || '5432';
 
 // database configuration
